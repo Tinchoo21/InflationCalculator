@@ -39,19 +39,19 @@ function calculateInf()
 
 
 
-let res = amount;
-let per = percent/100;
 
+let per = percent/100;
+let res = amount + (amount * per);
 
 if(amount > 0 && years > 0 && percent > 0)
 {
 
 
 
-    for(let i= 0; i< years ; i++)
+    for(let i= 1; i< years ; i++)
     {
 
-        res += amount*per;
+        res += res*per;
         res = Math.round(res*100)/100;
 
     }
