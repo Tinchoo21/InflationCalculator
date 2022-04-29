@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content = "width = device-width, initial-scale=1.0" />
+        <title>Inflation calculator</title>
+      <link rel="stylesheet" href="style.css" /> 
+        <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+      />
+
+    </head>
+    <body>
+
+             
+        <section class="container">
+
+
+            <H2>Initial amount:</H2>
+            <input type="number" id="amount" min="1">
+            <h2>Percent of inflation:</h2>
+            <input type="number" class="percent"   name="quantity" >
+            <h2>Number of years:</h2>
+            <input type="number" class="years" min="1">
+<br><br>
+            <button id="calculate" onclick="calculateInf()">Calculate</button>
+            <button class="reset" onclick="resetValues()"  >Reset</button>
+
+            <h2>Result:</h2>
+            <input type="text"value="" class="result" readonly>
+          
+
+            
+     
+    
+            
+
+
+
+        </section>
+
+        <!-- Javascript-->
+        <script src="app.js"></script>
+    </body>
+</html>

@@ -1,0 +1,56 @@
+body{
+
+   
+
+  
+
+background : rgba(0,0,0,0.5) url("img1.jpg");
+    background-size: cover;
+    background-blend-mode: darken;
+    background-repeat: repeat;
+ 
+}
+
+.container{
+
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    
+   
+}
+
+h2{
+
+    color: wheat;
+}
+
+
+
+#calculate {
+
+
+    padding: 5%;
+    background-color: #CB994F;
+    background-repeat:no-repeat;
+    cursor:pointer;
+    overflow: hidden;  
+    border-radius: 2px;
+}
+.reset {
+
+
+    padding: 5%;
+    background-color: #CB994F;
+    background-repeat:no-repeat;
+    cursor:pointer;
+    overflow: hidden;  
+    border-radius: 2px;
+}
+
+
+
+
